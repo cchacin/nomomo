@@ -15,9 +15,9 @@ public class Main {
         final ResourceConfig rc = new ResourceConfig().register(
                 new CommitsEndpoint(
                         new CommitsService(
-                                new LocalRepository(),
-                                new GithubRepository()
-                        )
+                                new LocalRepository()::commitBySha,
+                                new GithubRepository()::commitBySha
+                        )::commitBySha
                 )
         );
 
