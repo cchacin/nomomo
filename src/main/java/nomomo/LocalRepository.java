@@ -4,9 +4,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
-public class LocalRepository implements Repository {
+public class LocalRepository {
 
-    @Override
     public Optional<Commit> commitBySha(
             final String sha) {
         if (new Random().nextBoolean()) {
@@ -20,7 +19,6 @@ public class LocalRepository implements Repository {
         );
     }
 
-    @Override
     public List<Commit> commitsByRepo(
             final String repository) {
         return List.of(

@@ -3,9 +3,8 @@ package nomomo;
 import java.util.List;
 import java.util.Optional;
 
-public class GithubRepository implements Repository {
+public class GithubRepository {
 
-    @Override
     public Optional<Commit> commitBySha(
             final String sha) {
         return Optional.of(
@@ -16,7 +15,6 @@ public class GithubRepository implements Repository {
         );
     }
 
-    @Override
     public List<Commit> commitsByRepo(
             final String repository) {
         return List.of(
