@@ -6,7 +6,6 @@
 
 ![Sequence Diagram](./sequence-diagram.png)
 
-
 ### Class Diagram
 ![Class Diagram Before](./diagram-before.png)
 
