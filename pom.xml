@@ -95,9 +95,9 @@
     <properties>
         <jersey.version>2.32</jersey.version>
 
-        <junit.version>5.7.2</junit.version>
-        <assertj.version>3.17.2</assertj.version>
-        <mockito.version>3.11.0</mockito.version>
+        <junit.version>5.8.0</junit.version>
+        <assertj.version>3.21.0</assertj.version>
+        <mockito.version>3.12.4</mockito.version>
 
         <maven.compiler.release>16</maven.compiler.release>
 
